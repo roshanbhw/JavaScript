@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<p id="demonstration"></p>
+
+<script>
+	var customerName = "John";
+	var accountbalance = 20000;
+	var isvalid = true;
+	var object = null;
+	var x = 123;
+	var y = x;
+	var s = "123";
+
+	var s1 = "You are the CREATER of your destiny";
+
+	document.write(s1.toLowerCase() +" <br/>") // toLowerCase is predefine methods that convert any uppercase string to lowecase.
+	document.write(s1.substring(5,10) + "<br/>" +"<br/>")
+	document.write(s1.charAt(10) + "<br/>")
+	document.write(typeof x.toString() + "<br/>")
+	document.write(typeof isvalid.toString() + "<br/>")
+	//document.write(typeof x.toString() + "<br/>")
+
+
+	document.write( customerName + "<br/>")
+	document.write(typeof accountbalance + "<br/>") //typeof display datatype
+	document.write((object===null) + "<br/>")
+	document.write(isvalid + "<br/>")
+	document.write(x + "<br/>")
+	document.write(y + "<br/>")
+	document.write(x===s + "<br/>") // === operator check for the datatype as well as values
+
+	  var a = 10;
+  document.getElementById("demonstration").innerHTML = (a == 10);
+	
+</script>
+</body>
+</html>
